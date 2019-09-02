@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Find The Precious</title>
+	</head>
+	<body>
+		<header>
+			<!-- titre de la page -->
+			<h1>FindThePrecious.com</h1>
+			<!-- Navigation dans le header, lien vers section de la page -->
+			<nav>
+				<ul class="ulheader">
+					<li class="liheader"><a class="headerlien" href="#fellows">Fellows</a></li>
+					<li class="liheader"><a class="headerlien" href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+			<!-- On ajoutera d'autres div banieres si besoin-->
+			<!-- Gestion à revoir du strong et paragraphe pour ce texte soit en 2 balises soit une comme ici -->
+			<div class= "baniere">
+				<p> <strong> Dangerous fellowship try to destroy the ring </strong> Orcs, Goblins, Blarogs, protect your master Sauron</p>
+			</div>
+			
+		</header>
+		
+		<!-- Listes des personnes recherches avec 3 photos (placeholder.com)
+		Attention retour à la ligne aaprès h2!
+		définit comme article 1 avec un titre et 3 images + textes (defini en temps que section (titre + infos) de l'article)-->
+		<article>
+			<h2>Fellows wanted dead </h2> 
+			<p> (or alive if you want to eat them later)</p> 
+			
+			
+			<section class="imageFellows">
+				<img src="https://via.placeholder.com/150" alt="imageWizard">
+				<h3>The Wizard</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
+			</section>
+			<section class="imageFellows">
+				<img src="https://via.placeholder.com/150" alt="ImageHobbit">
+				<h3>Hobbit #3</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
+			</section>
+			<section class="imageFellows">
+				<img src="https://via.placeholder.com/150" alt="ImageDwarf">
+				<h3>Tummy Dwarf</h3>
+				<p>Small tout court...</p>
+			</section>
+		</article>
+		
+		<!-- création de l'article Contact, formaulaire de mise en relation -->
+		<article class="contact">
+				<h2>Contact Us</h2> 
+				<!-- Formulaire repris du wild circus				-->
+				<form method="post" action="envoyerDemande">
+					<input type="email" name="userMail" id="userMailInfo" placeholder="@" >
+					<input type="text" name="userAdress" id="userAdressInfo"  placeholder="🏠">
+					<select name="info" id="userInfo">
+						<option value="denonciation">I have seen one of them</option>
+					</select>
+					<textarea name="userRequest" id="userRequestInfo" rows="10" cols="66">Your message</textarea>
+				</form>
+		</article>
+		
+		<footer>
+			<!-- zone de navigation du footer -->
+			<nav>
+				<ul class="ulfooter">
+					<li class="lifooter"><a href="http://www.findTheprecious/about" >About us</a></li>
+					<li class="lifooter"><a href="http://www.findTheprecious/fellows" >Feloows</a></li>
+					<li class="lifooter"><a href="http://www.findTheprecious/join" >Join our Army</a></li>
+					<li class="lifooter"><a href="http://www.findTheprecious/faq" >FAQ</a></li>
+					<li class="lifooter"><a href="http://www.findTheprecious/reward" >Reward conditions</a></li>
+					<li class="lifooter"><a href="http://www.findTheprecious/legal" >Legal Mentions</a></li>	
+				</ul>
+			</nav>
+			<!-- texte droite avec div pour gérer le futur placement , à voir si meilleur moyen -->
+			<div>
+				<p>Sauron4ever.com</p>
+				<p>Follow him also on Twitter</p>
+			</div>
+		</footer>
+
+
+	</body>
+</html>
